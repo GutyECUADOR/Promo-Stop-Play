@@ -1,0 +1,21 @@
+{
+    "name": "vidiasoft/tetrapack",
+    "description": "Proyecto de tetrapack informativo",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "José Gutiérrez",
+            "email": "gutiecuador@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": ["config/global.php"]
+    }
+}
