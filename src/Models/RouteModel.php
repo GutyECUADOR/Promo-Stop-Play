@@ -1,6 +1,6 @@
 <?php namespace App\Models;
 
-class routeModel {
+class RouteModel {
     
     public function actionCatcherModel($action){
         switch ($action) {

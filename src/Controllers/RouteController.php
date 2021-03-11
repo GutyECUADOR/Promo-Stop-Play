@@ -1,5 +1,5 @@
 <?php namespace App\Controllers;
-use App\Models\routeModel;
+use App\Models\RouteModel;
 
 class RouteController {
     
@@ -7,7 +7,7 @@ class RouteController {
     
     public function __construct()
     {
-        $this->mainmodel = new routeModel();
+        $this->mainmodel = new RouteModel();
     }
     
     public function loadtemplate(){
