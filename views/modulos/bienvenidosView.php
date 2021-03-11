@@ -42,6 +42,11 @@
       <!--end of container-->
     </section>
   </div>
+
+  <div id="downloadpopover" class="float2"  data-container="body" data-toggle="popover" data-placement="left" data-content="DESCARGAR APP DE JUEGOS.">
+      <a style="color: white;" href="#"  target="_blank">
+      <i class="fa fa-download my-float"></i>
+  </div>
 </div>
 
 <!-- Required vendor scripts (Do not remove) -->
@@ -55,4 +60,9 @@
 
 <script type="text/javascript" >
   $('.fireworks').fireworks();
+  $(function () {
+          $('[data-toggle="popover"]').popover()
+          $("#whatspopover").popover("show");
+          $("#downloadpopover").popover("show");
+        })
 </script>
