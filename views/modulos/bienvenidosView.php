@@ -10,17 +10,17 @@
           </div>
           <!--end of col-->
           <div class="col-12 col-md-7 col-lg-4 mb-4 text-center">
-            <img alt="Image" src="assets/img/Bandera-colombia.png" class="w-75 zoom" />
+            <a href="?action=colombia"><img alt="Image" src="assets/img/Bandera-colombia.png" class="w-75 zoom" /></a>
             <h2 class="h1">Colombia</h2>
           </div>
           <!--end of col-->
           <div class="col-12 col-md-7 col-lg-4 mb-4 text-center">
-            <img alt="Image" src="assets/img/Bandera-ecuador.png" class="w-75 zoom" />
+            <a href="?action=ecuador"><img alt="Image" src="assets/img/Bandera-ecuador.png" class="w-75 zoom" /></a>
             <h2 class="h1">Ecuador</h2>
           </div>
           <!--end of col-->
           <div class="col-12 col-md-7 col-lg-4 mb-4 text-center">
-            <img alt="Image" src="assets/img/Bandera-peru.png" class="w-75 zoom" />
+            <a href="?action=peru"><img alt="Image" src="assets/img/Bandera-peru.png" class="w-75 zoom" /></a>
             <h2 class="h1">Perú</h2>
           </div>
           <!--end of col-->
