@@ -1,16 +1,4 @@
 <div class="main-container">
-  <section class="space-sm">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <img alt="Image" src="assets/img/logo-gray.svg" />
-        </div>
-        <!--end of col-->
-      </div>
-      <!--end of row-->
-    </div>
-    <!--end of container-->
-  </section>
   <section class="height-100 flush-with-above">
     <div class="container">
       <div class="row justify-content-between align-items-center">
@@ -18,9 +6,19 @@
           <img alt="Image" src="assets/img/graphic-woman-writing.svg" class="w-50" />
         </div>
         <!--end of col-->
-        <div class="col-12 col-md-7 col-lg-4 mb-4 mt-4 text-center text-md-left">
-          <img alt="Image" src="assets/img/Bandera-colombia.png" class="w-50" />
-          
+        <div class="col-12 col-md-7 col-lg-4 mb-4 mt-4 text-center">
+          <img alt="Image" src="assets/img/Bandera-colombia.png" class="w-75 zoom" />
+          <h2 class="h1">Colombia</h2>
+        </div>
+        <!--end of col-->
+        <div class="col-12 col-md-7 col-lg-4 mb-4 mt-4 text-center">
+          <img alt="Image" src="assets/img/Bandera-ecuador.png" class="w-75 zoom" />
+          <h2 class="h1">Ecuador</h2>
+        </div>
+        <!--end of col-->
+        <div class="col-12 col-md-7 col-lg-4 mb-4 mt-4 text-center">
+          <img alt="Image" src="assets/img/Bandera-peru.png" class="w-75 zoom" />
+          <h2 class="h1">Perú</h2>
         </div>
         <!--end of col-->
       </div>

@@ -6,3 +6,14 @@
 /*  in your page by adding a reference to assets/css/custom.css in the head of each page.
 /*
 */
+
+/*Zoom*/
+.zoom {
+    transition: transform .5s ease;
+  }
+
+  .zoom:hover {
+    -ms-transform: scale(1.15); /* IE 9 */
+    -webkit-transform: scale(1.15); /* Safari 3-8 */
+    transform: scale(1.15); 
+  }
