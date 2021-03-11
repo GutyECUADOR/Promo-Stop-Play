@@ -38,12 +38,13 @@ TODO:
             if (jqe.css('position') === 'static') {
                 element.style.position = 'relative';
             }
-            element.appendChild(canvas);
+            element.append(canvas);
             canvas.style.position = 'absolute';
             canvas.style.top = '0px';
             canvas.style.bottom = '0px';
             canvas.style.left = '0px';
             canvas.style.right = '0px';
+            canvas.style.zIndex = '1';
 
             // Kickoff the loops
             data.interval = setInterval(loop.bind(this, data), 1000 / 50);

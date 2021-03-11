@@ -1,8 +1,7 @@
 
 <div class="main-container" style="background: linear-gradient(135deg, #19518c 0%, #4582EC  100%);" >
   <div class="fireworks">
-    <div></div>
-    <section class="height-100 flush-with-above">
+    <section class="height-100 flush-with-above" style="z-index: 2;">
       <div class="container text-white">
         <div class="row justify-content-between">
           <div class="col-12 text-center">
@@ -55,5 +54,5 @@
 
 
 <script type="text/javascript" >
-  $('.fireworks').fireworks().append();
+  $('.fireworks').fireworks();
 </script>
