@@ -7,7 +7,7 @@ class RouteController {
     
     public function __construct()
     {
-        $this->mainmodel = new RouteModel();
+        $this->mainmodel = new routeModel();
     }
     
     public function loadtemplate(){

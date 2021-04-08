@@ -110,7 +110,7 @@
  position:fixed;
  width:60px;
  height:60px;
- bottom:40px;
+ bottom:73%;
  right:40px;
  background-color:#25d366;
  color:#FFF;
@@ -126,7 +126,7 @@
  position:fixed;
  width:60px;
  height:60px;
- bottom:110px;
+ bottom:85%;
  right:40px;
  background-color:#ce140d;
  color:#FFF;
@@ -148,5 +148,38 @@
 
 .mylogo{
  width: 60%;
+}
+
+
+/*Social Icons Font Awesome*/
+
+
+@media (max-width: 768px){
+  .mylogo{
+    width: 40%;
+  }
+
+  .popover-body{
+    font-size: 12px;
+  }
+
+  .main-background{
+    background-position:center;
+}
+
+.mytitle{
+  margin-top: 50%;
+  font-size: 30px;
+}
+
+.float{
+  right:5px;
+  bottom:73%;
+}
+
+.float2{
+  right:5px;
+  bottom:85%;
+}
 }
 
